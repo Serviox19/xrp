@@ -2,9 +2,16 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 
 class App extends Component {
+
+  componentDidMount() {
+    
+  }
+
   render() {
     return (
-      <h1>Root React Component</h1>
+      <div>
+        <h1>Root React Component</h1>
+      </div>
     );
   }
 }
